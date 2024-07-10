@@ -6,7 +6,7 @@ const userRoutes = require("./routes/userRoutes");
 
 const dbConnect = async () => {
   try {
-    await mongoose.connect("mongodb+srv://madhurkjindal:tX0nCfXAPo5JEiGv@cluster0.wmo8dlz.mongodb.net//MyCrudAppis");
+    await mongoose.connect("mongodb+srv://madhurkjindal:tX0nCfXAPo5JEiGv@cluster0.wmo8dlz.mongodb.net/MyCrudAppis");
     console.log("Database Connected");
   } catch (error) {
     console.log("error in db connection");
